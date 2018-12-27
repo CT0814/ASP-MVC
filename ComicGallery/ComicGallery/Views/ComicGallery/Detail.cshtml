@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Comic Book Detail";
+}
+
+<h1>@ViewBag.SeriesTitle</h1>
+<h2>Issue# @ViewBag.IssueNum</h2>
+
+<h5>Description</h5>
+<div> @Html.Raw(ViewBag.Descrition)</div>
+
+@if (ViewBag.Artitsts.Length > 0)
+{
+    <h5>Artists:</h5>
+    <div>
+        <ul>
+            @foreach (var artists in ViewBag.Artists)
+            {
+                <li>@artists</li>
+            }
+        </ul>
+    </div>
+}
