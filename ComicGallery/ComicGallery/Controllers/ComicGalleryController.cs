@@ -15,7 +15,7 @@ namespace ComicGallery.Controllers
             ViewBag.IssueNum = 700;
             ViewBag.Artists = new string[]
             {
-                 "Script: Dan Slott",
+                "Script: Dan Slott",
                 "Pencils: Humberto Ramos",
                 "Inks: Victor Olazaba",
                 "Colors: Edgar Delgado",
