@@ -47,7 +47,6 @@ namespace ComicGallery.Controllers
             //            "<strong>will Peter Parker?</strong></p>";
             // =========================================================================================================================================
 
-
             //send the comicBook var to the view to be displayed
             return View(comicBook);
         }
